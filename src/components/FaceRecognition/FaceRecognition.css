@@ -1,0 +1,21 @@
+.bounding-box{
+    position: absolute;
+    box-shadow: inset 0 0 0 3px #149df2;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;   
+    -ms-flex-wrap: wrap;
+    -ms-flex-pack: center;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.faceDetection{
+    margin-top: .5rem;
+    position: absolute;
+}

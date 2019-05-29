@@ -1,0 +1,93 @@
+.registerForm{
+    border-radius: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    border-color: rgba( 0, 0, 0, .1 );
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    max-width: 18rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    max-width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registerForm main{
+    padding: 2rem;
+    color: rgba( 0, 0, 0, .8 );
+}
+
+.zeroPadMarg{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.field{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+.registerLabel{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.inputContainer1{
+    margin-top: 1rem;
+}
+
+.inputContainer2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.label{
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.registerFormInput{
+    padding: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.registerFormInput:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.registerButton{
+    padding: .5rem 1rem .5rem 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background-color: transparent;
+}
+
+.registerButton:hover{
+    cursor: pointer;
+    transform: scale( 1.05 );
+}
+
+.signInFormRegisterBtn{
+    font-size: .875rem;
+    color: #000;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+}
+
+.signInFormRegisterBtn:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}

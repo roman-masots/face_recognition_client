@@ -1,0 +1,30 @@
+.navigationNav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.navigationAction {
+    cursor: pointer;
+    opacity: 1;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding: 1rem;
+    color: #000;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+ 
+.navigationAction:hover {
+    opacity: 0.3;
+} 
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
